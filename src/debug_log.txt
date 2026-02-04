@@ -1,0 +1,85 @@
+[04/02/2026 11:59:04,85] Iniciando Launcher 
+[04/02/2026 11:59:04,85] Args recebidos: test_run 
+[04/02/2026 11:59:04,88] CWD: C:\Users\user\Documents\GitHub\wizard_app\src 
+[04/02/2026 11:59:04,89] Executando python... 
+usage: cli.py [-h] {init-db,sync,watch,save,delete} ...
+cli.py: error: argument command: invalid choice: 'test_run' (choose from init-db, sync, watch, save, delete)
+[04/02/2026 11:59:08,15] ERRO FATAL: 2 
+[04/02/2026 12:01:25,01] Iniciando Launcher 
+[04/02/2026 12:01:25,01] Args recebidos: save --sku "TEST_MANUALL" --nome "Teste Manual CLI" --preco 10 --estoque 1 
+[04/02/2026 12:01:25,04] CWD: C:\Users\user\Documents\GitHub\wizard_app\src 
+[04/02/2026 12:01:25,07] Executando python... 
+Produto TEST_MANUALL salvo.
+[12:01:27] --- INICIANDO SYNC ---
+[12:01:27] Workbook Ativo Detectado: dados.xlsm
+[12:01:27] Tabela DB 'clientes' nao existe. Pulando.
+[12:01:27] Processando tabela: produtos
+[12:01:27] Linhas carregadas do Banco: 1
+[12:01:27] Tabela Excel 'tbl_produtos' criada.
+[12:01:27] --- SYNC CONCLUIDO ---
+[04/02/2026 12:01:28,30] Sucesso. 
+[04/02/2026 12:01:45,70] Iniciando Launcher 
+[04/02/2026 12:01:45,71] Args recebidos: save --sku "ff" --nome "mesa teste" --preco 100 --estoque 2 
+[04/02/2026 12:01:45,73] CWD: C:\Users\user\Documents\GitHub\wizard_app\src 
+[04/02/2026 12:01:45,75] Executando python... 
+Produto ff salvo.
+[12:01:48] --- INICIANDO SYNC ---
+[12:01:48] Workbook Ativo Detectado: dados.xlsm
+[12:01:48] Tabela DB 'clientes' nao existe. Pulando.
+[12:01:48] Processando tabela: produtos
+[12:01:48] Linhas carregadas do Banco: 2
+[12:01:48] Tabela Excel 'tbl_produtos' criada.
+[12:01:48] --- SYNC CONCLUIDO ---
+[04/02/2026 12:01:48,97] Sucesso. 
+[04/02/2026 12:02:06,59] Iniciando Launcher 
+[04/02/2026 12:02:06,59] Args recebidos: save --sku "gg" --nome "mesa 1" --preco 222 --estoque 5 
+[04/02/2026 12:02:06,62] CWD: C:\Users\user\Documents\GitHub\wizard_app\src 
+[04/02/2026 12:02:06,64] Executando python... 
+Produto gg salvo.
+[12:02:09] --- INICIANDO SYNC ---
+[12:02:09] Workbook Ativo Detectado: dados.xlsm
+[12:02:09] Tabela DB 'clientes' nao existe. Pulando.
+[12:02:09] Processando tabela: produtos
+[12:02:09] Linhas carregadas do Banco: 3
+[12:02:09] Tabela Excel 'tbl_produtos' criada.
+[12:02:09] --- SYNC CONCLUIDO ---
+[04/02/2026 12:02:09,84] Sucesso. 
+[04/02/2026 12:10:00,64] Iniciando Launcher 
+[04/02/2026 12:10:00,64] Args recebidos: save --sku "ggg" --nome "mesa 1" --preco 222 --estoque 5 
+[04/02/2026 12:10:00,68] CWD: C:\Users\user\Documents\GitHub\wizard_app\src 
+[04/02/2026 12:10:00,70] Executando python... 
+Produto ggg salvo.
+[12:10:03] --- INICIANDO SYNC ---
+[12:10:03] Workbook Ativo Detectado: dados.xlsm
+[12:10:03] Tabela DB 'clientes' nao existe. Pulando.
+[12:10:03] Processando tabela: produtos
+[12:10:03] Linhas carregadas do Banco: 4
+[12:10:03] Tabela Excel 'tbl_produtos' criada.
+[12:10:03] --- SYNC CONCLUIDO ---
+[04/02/2026 12:10:04,21] Sucesso. 
+[04/02/2026 12:10:23,94] Iniciando Launcher 
+[04/02/2026 12:10:23,94] Args recebidos: save --sku "vvv" --nome "cadeira" --preco 10 --estoque 2 
+[04/02/2026 12:10:23,98] CWD: C:\Users\user\Documents\GitHub\wizard_app\src 
+[04/02/2026 12:10:24,00] Executando python... 
+Produto vvv salvo.
+[12:10:26] --- INICIANDO SYNC ---
+[12:10:26] Workbook Ativo Detectado: dados.xlsm
+[12:10:26] Tabela DB 'clientes' nao existe. Pulando.
+[12:10:26] Processando tabela: produtos
+[12:10:26] Linhas carregadas do Banco: 5
+[12:10:26] Tabela Excel 'tbl_produtos' criada.
+[12:10:26] --- SYNC CONCLUIDO ---
+[04/02/2026 12:10:27,07] Sucesso. 
+[04/02/2026 12:10:35,26] Iniciando Launcher 
+[04/02/2026 12:10:35,26] Args recebidos: delete --sku "vvv" 
+[04/02/2026 12:10:35,29] CWD: C:\Users\user\Documents\GitHub\wizard_app\src 
+[04/02/2026 12:10:35,31] Executando python... 
+Produto vvv removido.
+[12:10:37] --- INICIANDO SYNC ---
+[12:10:37] Workbook Ativo Detectado: dados.xlsm
+[12:10:37] Tabela DB 'clientes' nao existe. Pulando.
+[12:10:37] Processando tabela: produtos
+[12:10:37] Linhas carregadas do Banco: 4
+[12:10:38] Tabela Excel 'tbl_produtos' criada.
+[12:10:38] --- SYNC CONCLUIDO ---
+[04/02/2026 12:10:38,55] Sucesso. 

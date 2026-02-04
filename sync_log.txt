@@ -1,0 +1,9 @@
+[11:44:12] --- INICIANDO SYNC ---
+[11:44:12] Workbook Ativo Detectado: dados.xlsm
+[11:44:12] Processando tabela: clientes
+[11:44:12] Linhas carregadas do Banco: 3
+[11:44:13] Tabela Excel 'tbl_clientes' criada.
+[11:44:13] Processando tabela: produtos
+[11:44:13] Linhas carregadas do Banco: 5
+[11:44:13] Tabela Excel 'tbl_produtos' criada.
+[11:44:13] --- SYNC CONCLUIDO ---
