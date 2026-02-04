@@ -1,0 +1,14 @@
+[project]
+name = "wizped"
+version = "0.1.0"
+description = "Projeto Wizped"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.0",
+    "polars>=1.37.1",
+    "sqlite-utils>=3.39",
+    "xlsxwriter>=3.2.9",
+    "xlwings>=0.33.20",
+]
